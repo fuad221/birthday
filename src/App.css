@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.cardCon {
+    display: inline-block;
+    margin: 20px;
+    padding: 7px;
+    border: 2px orange solid;
+    box-shadow: 5px gray ;
+    width: 220px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imgSize {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 2px rgb(185, 117, 117) solid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.fontSize {
+    font-size: 15px;
+    display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.btnBooking {
+    background-color: hotpink;
+    }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    .btnBooking:hover{
+        background-color: rgb(8, 99, 202);
+        color: rgb(245, 245, 245)
+    }

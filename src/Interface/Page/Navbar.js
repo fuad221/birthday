@@ -1,13 +1,13 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
  function Navbar() {
 
 
     return (
-            <nav>
-                <li>
+            <nav className="navbar navbar-dark bg-dark">
+                <li className="">
                     <NavLink to="/Home">Home</NavLink>
                 </li>
 
@@ -24,7 +24,15 @@ import {NavLink} from 'react-router-dom'
                 </li>
 
                 <li>
-                    <Navbar to="/contact">contact</Navbar>
+                    <NavLink to="/contact">contact</NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/Interface">Interface</NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/Login">Login</NavLink>
                 </li>
             </nav>
     )
