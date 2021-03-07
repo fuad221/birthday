@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Navbar from "./Interface/Page/Navbar";
-import Home from "./Interface/Page/Home";
+import FoodFetch from "./Interface/Page/FoodFetch";
 import Idea from "./Interface/Page/Idea";
 import Event from "./Interface/Page/Event";
+import Contact from './Interface/Page/Contact'
 import { Route } from "react-router-dom";
 import Interface from "./Interface/FormAndData/Interface";
 import Login from './Interface/Page/Login'
@@ -17,14 +18,22 @@ function App() {
   return (
     <div>
       <Navbar /> 
-      <Route path="/home" exact>      <Home />            </Route>
+      <Route path="/FoodFetch" exact>      <FoodFetch />            </Route>
+
       <Route path="/Interface" exact>
            {product.map( (item) => 
-           <Interface images = {item.img} priceA = {item.price}  yourGift ={item.yourGift} /> 
-    )}     </Route>
+            <Interface 
+              images = {item.img} 
+              priceA = {item.price}  
+              yourGift ={item.yourGift} 
+            /> 
+            )}     
+      </Route>
 
       <Route path="/Idea" exact>      <Idea />            </Route>
       <Route path="/Event" exact>     <Event />           </Route>
+      <Route path="/Contact" exact>   <Contact />           </Route>
+
       <Route path="/Login" exact>     <Login />           </Route>
 
     

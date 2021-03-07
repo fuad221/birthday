@@ -1,6 +1,7 @@
 import React from "react";
 import '../../App.css'
 
+
 const Interface = ({images, price, yourGift}) => { 
   
   return (

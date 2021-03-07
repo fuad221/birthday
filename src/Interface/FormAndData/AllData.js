@@ -1,15 +1,15 @@
 
 const ourProduct = [
     {
-        id: 1,
-        img: "/img/001.jpg",
+        id: 1, 
+        img: "/img/1.jpg",
         price: 20,
         discount: .10,
         yourGift: "15 Euro",
     },
     {
         id: 2,
-        img: "/img/002.jpg",
+        img: "/img/2.jpg",
         price: 22,
         discount: .10,
     },

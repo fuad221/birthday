@@ -7,7 +7,7 @@ import {NavLink} from 'react-router-dom'
     return (
             <nav className="navbar navbar-dark bg-dark">
                 <li className="">
-                    <NavLink to="/Home">Home</NavLink>
+                    <NavLink to="/FoodFetch">FoodFetch</NavLink>
                 </li>
 
                 <li>
