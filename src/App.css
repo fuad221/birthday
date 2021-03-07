@@ -2,7 +2,7 @@
     display: inline-block;
     margin: 20px;
     padding: 7px;
-    border: 2px orange solid;
+    /* border: 2px orange solid; */
     box-shadow: 5px gray ;
     width: 220px;
 }
@@ -11,7 +11,7 @@
     display: flex;
     width: 200px;
     height: 200px;
-    border: 2px rgb(185, 117, 117) solid;
+    /* border: 2px rgb(185, 117, 117) solid; */
 }
 
 
@@ -21,10 +21,28 @@
 }
 
 .btnBooking {
-    background-color: hotpink;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-style: none;
     }
 
     .btnBooking:hover{
-        background-color: rgb(8, 99, 202);
-        color: rgb(245, 245, 245)
+        color: rgb(93, 158, 201)
+    }
+
+
+    .loadingC {
+
+            border: 16px solid #f3f3f3; /* Light grey */
+            border-top: 16px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+          }
+          
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          
     }

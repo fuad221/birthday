@@ -1,10 +1,11 @@
 
-const ImgRul = [
+const ourProduct = [
     {
         id: 1,
         img: "/img/001.jpg",
         price: 20,
         discount: .10,
+        yourGift: "15 Euro",
     },
     {
         id: 2,
@@ -124,4 +125,4 @@ const ImgRul = [
 ]
 
 
-export default ImgRul
+export default ourProduct
