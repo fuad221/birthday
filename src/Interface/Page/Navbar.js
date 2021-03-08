@@ -33,6 +33,10 @@ import {NavLink} from 'react-router-dom'
                 <li>
                     <NavLink to="/Login">Login</NavLink>
                 </li>
+
+                <li>
+                    <NavLink to="/Login">LoginForm</NavLink>
+                </li>
             </nav>
     )
 }

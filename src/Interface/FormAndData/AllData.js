@@ -2,27 +2,29 @@
 const ourProduct = [
     {
         id: 1, 
-        img: "/img/1.jpg",
-        price: 20,
-        discount: .10,
-        yourGift: "15 Euro",
+        img: "https://images-gmi-pmc.edge-generalmills.com/99d8ae9a-737f-491c-a7f7-34b014e5682c.jpg",
+        price: 210,
+        discount: .90,
+        yourGift: "77 Euro",
     },
     {
         id: 2,
-        img: "/img/2.jpg",
+        img: "https://envato-shoebox-0.imgix.net/9969/b748-ba9d-4fb6-8635-9dbeb5ca4f72/brth4_b268.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=800&s=015b2517a4563f68c0d143ba6923a830",
         price: 22,
         discount: .10,
+        yourGift: "77 Euro",
+
     },
     {
         id: 3,
-        img: "/img/003.jpg",
+        img: "https://images-gmi-pmc.edge-generalmills.com/aa2baf56-8316-4e9a-9407-557853377f2a.jpg",
         price: 23,
         discount: .10,
     },
     
     {
         id: 4,
-        img: "/img/004.jpg",
+        img: "https://cdn75.picsart.com/185632312000202.jpg?type=webp&to=min&r=640",
         price: 20,
         discount: .10,
     },
