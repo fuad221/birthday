@@ -21,39 +21,32 @@ export default class FoodFetch extends Component {
   
 
        updateSearch = (e) => {
-        this.setState(e.target.value)
+        this.setState  ({search:e.target.value})
+       
       }
     
       //onSubmit
        getSearch = (e) => {
         e.preventDefault();
         this.setState({search: ""});
-        this.setState("");
       }
-      
 
-        loadData =  async () =>{
-        const response = await fetch(`https://api.edamam.com/search?q=${this.state.query}&app_id="4dde2438"&app_key="d3e78673e07087e565711dad3eb62473"`);
+
+        loadData =  async () => {
+        const response = await fetch(`https://api.edamam.com/search?q=${this.state.query}&app_id=4dde2438&app_key=d3e78673e07087e565711dad3eb62473`);
             const data = await response.json();
-          this.setState(data.hits)  
+          this.setState({recipes: data.hits})  
       }
-      //as useEffct
-      componentDidMount()  {      
-          
-          this.loadData ()
-                    
-        //  [query]);
-      } 
+ 
+      
     
 
-
-
   render() {
-
+    this.loadData()
     return (
       <div className="App">
 
-        <form onSubmit={this.state.getSearch} className="search-form">
+        <form onSubmit={this.getSearch} className="search-form">
           <input type="text" value={this.state.search} onChange={this.updateSearch} className="search-bar" />
           <button  className="search-but" type="submit">Search </button>
         </form>
