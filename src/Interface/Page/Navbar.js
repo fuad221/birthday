@@ -35,7 +35,14 @@ import {NavLink} from 'react-router-dom'
                 </li>
 
                 <li>
-                    <NavLink to="/Login">LoginForm</NavLink>
+                    <NavLink to="/LoginForm">LoginForm</NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/Reducer">Reducer</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/ReducerTwo">ReducerTwo</NavLink>
                 </li>
             </nav>
     )

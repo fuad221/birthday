@@ -11,6 +11,8 @@ import Login from './Interface/Page/LoginForm/Login'
 import LoginForm from './Interface/Page/LoginForm/LoginForm'
 import ourProduct from './Interface/FormAndData/AllData'
 import './App.css'
+import Reducer from "./Reducer/Reducer";
+import ReducerTwo from './Reducer/ReducerTow'
 
 function App() {
   const [product]= useState(ourProduct);
@@ -37,12 +39,13 @@ function App() {
 
       <Route path="/Idea" exact>      <Idea />            </Route>
       <Route path="/Event" exact>     <Event />           </Route>
-      <Route path="/Contact" exact>
-         <img src="https://mediagen.captureone.com/media/30dlkax1/capture-one-raw-photo-editor-raw-edited-a-b.png?width=1500&upscale=false"/>
-           <Contact />         </Route>
+      <Route path="/Contact" exact>   <Contact />         </Route>
 
       <Route path="/Login" exact>     <Login />           </Route>
       <Route path="/LoginForm" exact> <LoginForm />       </Route>
+      {/* <Route path="/Reducer" exact> <Reducer />       </Route> */}
+      <Route path="/ReducerTwo" exact> <ReducerTwo />       </Route>
+
 
     
   
