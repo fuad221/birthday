@@ -8,7 +8,7 @@ import { Route } from "react-router-dom";
 import Interface from "./Interface/FormAndData/Interface";
 import Login from './Interface/Page/LoginForm/Login'
 // import Login from './Interface/Page/Login'
-import LoginForm from './Interface/Page/LoginForm/LoginForm'
+import LoginForm from './Interface/Page/LoginForm'
 import ourProduct from './Interface/FormAndData/AllData'
 import './App.css'
 import Reducer from "./Reducer/Reducer";
