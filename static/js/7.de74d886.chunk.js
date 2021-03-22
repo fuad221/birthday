@@ -1,0 +1,2 @@
+(this.webpackJsonpbirthday=this.webpackJsonpbirthday||[]).push([[7],{46:function(t,i,s){"use strict";s.r(i),i.default=s.p+"static/media/10.228957b1.jpg"}}]);
+//# sourceMappingURL=7.de74d886.chunk.js.map

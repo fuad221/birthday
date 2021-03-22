@@ -1,0 +1,2 @@
+(this.webpackJsonpbirthday=this.webpackJsonpbirthday||[]).push([[4],{44:function(i,t,a){"use strict";a.r(t),t.default=a.p+"static/media/favicon.4fe75d5f.ico"}}]);
+//# sourceMappingURL=4.d51fbd29.chunk.js.map
