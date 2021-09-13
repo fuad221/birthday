@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Interface/Page/Navbar";
-import FoodFetch from "./Interface/Page/FoodFetch";
+import FoodBooking from "./Interface/Page/FoodBooking";
 import Idea from "./Interface/Page/Idea";
 import Event from "./Interface/Page/Event";
 import Contact from './Interface/Page/Contact'
@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       <Navbar /> 
-      <Route path="/FoodFetch" exact>      <FoodFetch />            </Route>
+      <Route path="/FoodBooking" exact>      <FoodBooking />            </Route>
 
       <Route path="/Interface" exact>
            {product.map( (item) => 

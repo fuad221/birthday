@@ -4,7 +4,7 @@ import '../Page/Recipe/Recipe.css'
 import Recipe from './Recipe/Recipe'
 
 
-const FoodFetch = () => {
+const FoodBooking = () => {
 
   const APP_ID = "4dde2438";
   const APP_KEY = "d3e78673e07087e565711dad3eb62473";
@@ -105,5 +105,5 @@ const FoodFetch = () => {
 //   } 
 }
 
-export default FoodFetch;
+export default FoodBooking;
 
