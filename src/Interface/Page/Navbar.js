@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-dark bg-dark">
             <li className="">
-                <NavLink to="/FoodBooking">FoodBooking</NavLink>
+                <NavLink to="/foodbooking">FoodBooking</NavLink>
             </li>
 
             <li>
